@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['inclusion', 'patches', 'scratches']
+
+roboflow:
+  workspace: jensen-fmux4
+  project: metal-surface-defect
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/jensen-fmux4/metal-surface-defect/dataset/1
